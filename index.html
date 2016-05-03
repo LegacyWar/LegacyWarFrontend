@@ -2,6 +2,25 @@
 <html>
 <head>
     <title>Legacy Wat?</title>
+    <link type='text/css' rel='stylesheet' href='web/css/skeleton.css'/>
+    <link type='text/css' rel='stylesheet' href='web/css/normalize.css'/>
+    <style>
+        .better {
+            color: green;
+            font-weight: bold;
+        }
+        .worse {
+            color: red;
+            font-weight: bold;
+        }
+        #footer {
+            padding-top: 20px;
+            clear: both;
+            background: #242729;
+            color: #CECECE;
+            min-height: 400px;
+        }
+    </style>
 </head>
 <body>
 <div class='container'>
@@ -9,91 +28,88 @@
         <h1>Legacy War</h1>
     </div>
     <div class='row'>
-        <h2>Leaderboard</h2>
-        <table class='table'>
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Last Position</th>
-                    <th>Repository Name</th>
-                    <th>Lines Killed</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-                <tr>
-                    <td>Pos</td>
-                    <td>Last</td>
-                    <td><a href="#">Name</a></td>
-                    <td>Num</td>
-                </tr>
-            </tbody>
-        </table>
+        <h5>Leaderboard</h5>
+        <div class='twelve columns'>
+            <table class='u-full-width'>
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Last</th>
+                        <th>Repository Name</th>
+                        <th>Lines Destroyed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class='better'>1</td>
+                        <td>3</td>
+                        <td><a href="https://github.com/FreeCodeCamp/FreeCodeCamp">FreeCodeCamp/FreeCodeCamp</a></td>
+                        <td>1231</td>
+                    </tr>
+                    <tr>
+                        <td class='better'>2</td>
+                        <td>8</td>
+                        <td><a href="https://github.com/IonicaBizau/scrape-it">IonicaBizau/scrape-it</a></td>
+                        <td>1100</td>
+                    </tr>
+                    <tr>
+                        <td class='better'>3</td>
+                        <td>14</td>
+                        <td><a href="https://github.com/steshaw/plt">steshaw/plt</a></td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <td class='worse'>4</td>
+                        <td>2</td>
+                        <td><a href="https://github.com/google/xi-editor">google/xi-editor</a></td>
+                        <td>650</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>5</td>
+                        <td><a href="https://github.com/satoshiiizuka/siggraph2016_colorization">satoshiiizuka/siggraph2016_colorization</a></td>
+                        <td>348</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>6</td>
+                        <td><a href="https://github.com/akshayKMR/hogwatch">akshayKMR/hogwatch</a></td>
+                        <td>344</td>
+                    </tr>
+                    <tr>
+                        <td class='better'>7</td>
+                        <td>19</td>
+                        <td><a href="https://github.com/garnele007/SwiftOCR">garnele007/SwiftOCR</a></td>
+                        <td>280</td>
+                    </tr>
+                    <tr>
+                        <td class='better'>8</td>
+                        <td>100</td>
+                        <td><a href="https://github.com/joshbuchea/HEAD">joshbuchea/HEAD</a></td>
+                        <td>270</td>
+                    </tr>
+                    <tr>
+                        <td class='worse'>9</td>
+                        <td>4</td>
+                        <td><a href="https://github.com/racaljk/hosts">racaljk/hosts</a></td>
+                        <td>261</td>
+                    </tr>
+                    <tr>
+                        <td class='better'>10</td>
+                        <td>129</td>
+                        <td><a href="https://github.com/nylas/N1">nylas/N1</a></td>
+                        <td>253</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id='footer'>
+    <div class='container'>
+        <div class='row'>
+            some stuff in here
+        </div>
     </div>
 </div>
 </body>
